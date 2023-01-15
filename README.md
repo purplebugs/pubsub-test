@@ -23,3 +23,5 @@ Run app for listening to messages
 Run app for sending a message
 
 - In a third terminal `node pub.js`
+
+Now go back to second terminal and check for messages
