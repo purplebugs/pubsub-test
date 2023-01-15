@@ -2,7 +2,8 @@
 const ip = "192.168.1.115";
 
 const Redis = require("ioredis");
-const redis = new Redis(6379, ip);
+const redis = new Redis(); // To use local redis if run `redis-server` locally
+// const redis = new Redis(6379, ip); // To use redis running elsewhere
 
 // console.log(redis); // test connection
 
