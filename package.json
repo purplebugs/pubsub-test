@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/purplebugs/pubsub-test/issues"
   },
-  "homepage": "https://github.com/purplebugs/pubsub-test#readme"
+  "homepage": "https://github.com/purplebugs/pubsub-test#readme",
+  "dependencies": {
+    "ioredis": "^5.2.5"
+  }
 }
